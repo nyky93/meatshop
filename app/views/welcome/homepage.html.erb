@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.1.1.js"></script>
+  <script src="js/superfish.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/sForm.js"></script>
+  <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+  <script src="js/tms-0.4.1.js"></script>
+  <script>
+      $(window).load(function(){
+          $('.slider')._TMS({
+              show:0,
+              pauseOnHover:false,
+              prevBu:'.prev',
+              nextBu:'.next',
+              playBu:false,
+              duration:800,
+              preset:'fade',
+              pagination:true,//'.pagination',true,'<ul></ul>'
+              pagNums:false,
+              slideshow:8000,
+              numStatus:false,
+              banners:false,
+              waitBannerAnimation:false,
+              progressBar:false
+          })
+      });
+
+      $(window).load (
+              function(){$('.carousel1').carouFredSel({auto: false,prev: '.prev',next: '.next', width: 960, items: {
+                  visible : {min: 1,
+                      max: 4
+                  },
+                  height: 'auto',
+                  width: 240,
+
+              }, responsive: false,
+
+                  scroll: 1,
+
+                  mousewheel: false,
+
+                  swipe: {onMouse: false, onTouch: false}});
+
+
+              });
+
+  </script>
+  <!--[if lt IE 8]>
+  <div style=' clear: both; text-align:center; position: relative;'>
+      <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+          <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+      </a>
+  </div>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <link rel="stylesheet" media="screen" href="css/ie.css">
+
+  <![endif]-->
+</head>
+<body>
+<div class="main">
+  <!--==============================header=================================-->
+  <header>
+    <div class="container_12">
+      <div class="grid_12">
+        <h1><a href="index.html"><img src="assets/logo.png" alt="EXTERIOR" style="height: 80px; weight:140px;"></a> </h1>
+
+        <div class="menu_block">
+          <nav  class="" >
+            <ul class="sf-menu">
+              <!--<li class="current"><a href="homepage.html">Главная</a></li>-->
+<!--              <li class="with_ul"><a href="index-1.html"></a><ul>
+                <li><a href="#"> </a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+
+              </ul></li>
+              <li><a href="index-2.html"></a></li>
+              <li><a href="index-3.html"></a></li>
+              <li><a href="index-4.html"> </a></li>-->
+             <!-- <li><a href="index-5.html">Contacts</a></li>-->
+
+              <h2>Контактный номер для заказа: 0700150172</h2>
+              <h2>Email : sididoma@gmail.com</h2>
+
+            </ul>
+          </nav>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+
+      </div>
+    </div>
+  </header>
+  <div class="slider-relative">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="assets/slide.jpg" alt=""></li>
+          <li><img src="assets/slide1.jpg" alt=""></li>
+          <li class="mb0"><img src="assets/slide2.jpg" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--=======content================================-->
+
+  <div class="content page1"><div class="ic">SidiDomaKg</div>
+    <div class="container_12">
+      <div class="grid_7">
+        <h2> Добро пожаловать!</h2>
+        <div class="page1_block col1">
+          <img src="assets/welcome_img.png" alt="">
+          <div class="extra_wrapper">
+            <p><span class="col2">
+              <a href="" rel="nofollow"></a></span>
+              Мы предлагаем мясо  наивысшего качества из самых экологически чистых регионов Кыргызстана.
+              Наши фермеры выращивают  животных с большой заботой, уделяя особое внимание их здоровью.
+              Скот откармливают  только естественным кормом и содержат  в самых чистых условиях.
+              Выращенный с заботой скот,  содержится в чистых условиях и откармливается только естественным кормом.
+            </p>
+
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+      <div class="grid_12">
+        <div class="hor_separator"></div>
+      </div>
+      <div class="grid_12">
+        <div class="car_wrap">
+          <h2>Продукция</h2>
+          <a href="#" class="prev"></a><a href="#" class="next"></a>
+          <ul class="carousel1">
+            <li><div><img src="assets/page1_img1.jpg" alt="">
+              <div class="col1 upp"> <a href="#">Бон филе</a></div>
+              <span> Бон филе считается самой нежной частью, также это
+                самое дорогое мясо говяжьей туши c тонкими волокнами.
+                Его берут из внутренней позвоночной мышцы, расположенной
+                с обратной стороны поясничной части говяжьей вырезки.</span>
+              <br>
+              <div class="price">450 сом</div>
+            </div>
+            </li>
+            <li><div><img src="assets/page1_img2.jpg" alt="">
+              <div class="col1 upp"> <a href="#">Транш - вырезка</a></div>
+              <span> Транш - вырезка внутренней части задней ноги. Мясо транш
+                не имеет жилок и поэтому из него получаются мягкие и нежные
+                биштексы и медальоны. Транш - фаворит ресторанов и кафе.</span>
+              <br>
+              <div class="price">350 сом</div></div>
+            </li>
+            <li><div><img src="assets/page1_img3.jpg" alt="">
+              <div class="col1 upp"> <a href="#">Грудинка</a></div>
+              <span>Грудинка - грудная часть мякоти с косточкой. Грудинку
+                можно условно разделить на 3 части. Самая мясная
+                часть — передняя, в ней больше всего жира, поэтому
+                ее мясо остается сочным даже после длительного варения.
+                Средняя часть грудинки хорошо подходит для бульона,
+                а плоская задняя — постная — отличный вариант для тушения.</span>
+              <br>
+
+              <div class="price">370 сом</div></div>
+            </li>
+            <li><div><img src="assets/page1_img4.jpg" alt="">
+              <div class="col1 upp"> <a href="#">Фарш говяжий средней жирности</a></div>
+              <span> Фарш говяжий средней жирности.
+                Из мясного фарша можно приготовить пельмени, фрикадельки,
+                фаршированный перец, беляши или чебуреки.</span>
+              <br>
+
+              <div class="price">300 сом</div></div>
+            </li>
+
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="clear"></div>
+      <div class="bottom_block">
+        <div class="grid_6">
+          <h2>Контактный номер для заказа: 0700150172</h2>
+          <h2>Email : sididoma@gmail.com</h2>
+
+        </div>
+
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+
+<footer>
+  <div class="container_12">
+    <div class="grid_12">
+      Сиди дома © 2015  &nbsp;&nbsp;
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>
